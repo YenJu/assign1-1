@@ -76,16 +76,11 @@ void draw() {
       // stop rolling
       // -------------------------------------------------
       // put your code inside here
-       int temp = machine.getSlotScore(0)+machine.getFruitCount(0)
-                  +machine.getSlotScore(1)+machine.getFruitCount(1)
-                  +machine.getSlotScore(2)+machine.getFruitCount(2)
-                  +machine.getSlotScore(3)+machine.getFruitCount(3)
-                  +machine.getSlotScore(4)+machine.getFruitCount(4)
-                  +machine.getSlotScore(5)+machine.getFruitCount(5)
-                  +machine.getSlotScore(6)+machine.getFruitCount(6) ;
-      
-      totalScore= totalScore +temp;
-      println("1:" + pt0 + "2:" + pt1 + "3:" +pt2);
+          int a = machine.getSlotScore(0 );
+         int b = machine.getSlotScore(1 );
+         int c = machine.getSlotScore(2);
+         
+         totalScore = totalScore +a + b + c ;
  
  
  

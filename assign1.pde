@@ -76,14 +76,16 @@ void draw() {
       // stop rolling
       // -------------------------------------------------
       // put your code inside here
+      
+       machine.setSlotFruit(0,slotA);
+       machine.setSlotFruit(1,slotB);
+       machine.setSlotFruit(2,slotC);
+      
           int a = machine.getSlotScore(0 );
          int b = machine.getSlotScore(1 );
          int c = machine.getSlotScore(2);
          
-         totalScore = totalScore +a + b + c ;
- 
- 
- 
+         totalScore = totalScore + a*machine.getFruitCount(slotA)+ b*machine.getFruitCount(slotB)+c*machine.getFruitCount(slotC);
       
       // -------------------------------------------------
     }
@@ -101,9 +103,6 @@ void mousePressed() {
     button = !button;
   }  
 }
-
-
-//hello
 
 
 

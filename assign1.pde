@@ -57,9 +57,7 @@ void draw() {
       slotC = int (random(6));
       
       
-      machine.setSlotFruit(0,slotA);
-      machine.setSlotFruit(1,slotB);
-      machine.setSlotFruit(2,slotC);
+     
       
      
       

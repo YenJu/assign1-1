@@ -14,7 +14,7 @@ int totalScore = 500;
 int slotA ;
 int slotB;
 int slotC;
-int pt0,pt1,pt2;
+
 // --------------------------------------------
 
 void setup() {
